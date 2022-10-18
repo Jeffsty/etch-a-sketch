@@ -1,18 +1,21 @@
-.grid-container {
+#container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    background-color: salmon;
-    justify-content: center;
+    background-color: white;
+    justify-content: space-around;
     margin: 15px;
     color: black;
+    border: solid black;
+    width: 500px;
+    height: 500px;
+    align-items: center;
 }
 
-.grid-item {
-    background-color: palevioletred;
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 10px;
-    text-align: center;
+#wut {
+    display: flexbox;
+
+    border: solid black;
+
 }
 
 .title {
@@ -21,4 +24,5 @@
     margin: 15px;
     color: blue;
     font-size: 36px;
+    /* border: solid black;  ##for debugging */
 }
