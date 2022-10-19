@@ -1,16 +1,21 @@
-#container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    background-color: white;
-    justify-content: space-around;
-    margin: 15px;
-    color: black;
-    border: solid black;
-    width: 500px;
-    height: 500px;
-    align-items: center;
+.grid{
+    margin-top: 50px;
+    display: inline-grid;
+    /*look the next time up */
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white(2, 2, 2);
+    border-radius: 5px;
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+/*     box-shadow: 10px 10px; */
 }
 
+.cell{
+    background-color: white;
+    border: 1px solid black;
+}
 
 .title {
     display: flex;
